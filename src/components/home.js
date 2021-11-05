@@ -1,19 +1,17 @@
 import React, {Component} from 'react';
-import Particles from 'react-particles-js';
+
 import './news.css';
 import {Card, Button, CardMenu, IconButton, CardTitle, CardText,CardActions, DataTable, TableHeader} from 'react-mdl';
 import FooterPage from './FooterPage.js'
 import Typical from 'react-typical';
 import ParticleBackground from './particle-js';
 
-import Logo from '../img/logo_test.png';  
 import Logo2 from '../img/logo2.png';
 import Binance1 from '../img/binance6.jpg';
 import Coinbase1 from '../img/coinbase5.png';
 import Swissborg1 from '../img/swissborg5.jpg';
 import Coinex from '../img/coinex1.jpg';
 import Kucoin1 from '../img/kucoin3.png';
-import Fiverr1 from '../img/fiverr1.png';
 import Crypto1 from '../img/crypto5.jpg';
 import NEWS from '../img/news_example.png';
 
@@ -26,13 +24,13 @@ class Home extends Component {
             <div>
 
     
-			<ParticleBackground/>
+				<ParticleBackground/>
 
-			<div className ='first-page-landing'>
+				<div className ='first-page-landing'>
 
-			<img className ='image-logo' src={Logo2}/>
+				<img className ='image-logo' src={Logo2}/>
 
-		</div>
+			</div>
 
 	
 
