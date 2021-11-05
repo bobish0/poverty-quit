@@ -3,8 +3,7 @@ import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
 import {Link} from 'react-router-dom';
-import FooterPage from './components/FooterPage';
-import Logo3 from './img/logo3.png';
+
 
 
 class App extends Component {
@@ -36,11 +35,11 @@ class App extends Component {
             </Navigation>
         </Drawer>
 
+
         <Content>
-
             <div className ="page-content"/>
-            <Main/>
 
+            <Main/>
         </Content>
     </Layout>
 
