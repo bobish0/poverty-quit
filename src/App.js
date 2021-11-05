@@ -30,7 +30,7 @@ class App extends Component {
             <Link className ='no-decoration' to="/home">Home</Link>
             <Link className ='no-decoration' to="/aboutme">About</Link>
             <Link className ='no-decoration' to="/portfolio">Portfolio</Link>
-            <Link className ='no-decoration'  to="/news">News</Link>
+            <Link className ='no-decoration' to="/news">News</Link>
             <Link className ='no-decoration' to="/earn">Earn</Link>
              
             </Navigation>

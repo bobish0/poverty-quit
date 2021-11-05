@@ -5,6 +5,7 @@ import {Card, Button, CardMenu, IconButton, CardTitle, CardText,CardActions, Dat
 import FooterPage from './FooterPage.js'
 import Typical from 'react-typical';
 import ParticleBackground from './particle-js';
+import card_info from './constants/constants';
 
 import Logo2 from '../img/logo2.png';
 import Binance1 from '../img/binance6.jpg';
@@ -33,9 +34,6 @@ class Home extends Component {
 			</div>
 
 	
-
-
-
 			
 			<div className ='description'>
 					<br></br>
@@ -51,12 +49,14 @@ class Home extends Component {
 		
 				
 				
+				
+
+
 		
 
 		<div className = 'card-layout-1'>
-
-			<Card className='card-margin' shadow={3} style={{width: '350px', height: '320px', margin: 'auto'}}>
-				
+			
+			<Card className='card-margin' shadow={3} style={{width: '350px', height: '320px', margin: 'auto'}}>	
 				<CardTitle expand style={{color: '#fff', background: `url(${Binance1}) center /cover `}}> 10% off trading.</CardTitle>
 				<CardText>
 					Binance is one of the Largest Crypto-sites in the world.
@@ -116,7 +116,7 @@ class Home extends Component {
 					 Crypto.com will launch their own chain and already have their Visa-cards. 
 				</CardText>
 				<CardActions border>
-					<Button colored target='_blank' href={'https://www.fiverr.com/'}>Learn More</Button>
+					<Button colored target='_blank' href={'https://www.crypto.com/'}>Learn More</Button>
 				</CardActions>
 			</Card>
 	
