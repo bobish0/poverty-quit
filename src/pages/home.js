@@ -1,17 +1,11 @@
 import React, {Component} from 'react';
-import Logo2 from '../img/logo2.png';
 import NEWS from '../img/news_example.png';
 import './news.css';
 import {Card, Button, CardMenu, IconButton, CardTitle, CardText,CardActions, DataTable, TableHeader} from 'react-mdl';
 import Typical from 'react-typical';
-
-
-import ParticleBackground from './particle-js';
-
-
 import card_info from '../components/constants/constants';
 import FooterPage from '../components/FooterPage.js'
-
+import Hero from '../components/Hero';
 
 
 
@@ -21,16 +15,7 @@ class Home extends Component {
         return (
 
             <div>
-
-    
-				<ParticleBackground/>
-
-				<div className ='first-page-landing'>
-
-				<img className ='image-logo' src={Logo2}/>
-
-				</div>
-			
+			<Hero />
 
 				{/* typical-react-library */}
 				<div className ='description'>
