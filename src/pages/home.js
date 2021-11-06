@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
 import Logo2 from '../img/logo2.png';
 import NEWS from '../img/news_example.png';
-
 import './news.css';
 import {Card, Button, CardMenu, IconButton, CardTitle, CardText,CardActions, DataTable, TableHeader} from 'react-mdl';
-import FooterPage from './FooterPage.js'
 import Typical from 'react-typical';
-import ParticleBackground from './particle-js';
-import card_info from './constants/constants';
 
+
+import ParticleBackground from './particle-js';
+
+import card_info from '../components/constants/constants.js';
+
+import FooterPage from '../components/FooterPage'
 
 
 
@@ -28,6 +30,8 @@ class Home extends Component {
 
 				</div>
 			
+
+				{/* typical-react-library */}
 				<div className ='description'>
 						<br></br>
 						<h4>Learn. Invest. Earn. </h4>
@@ -40,6 +44,8 @@ class Home extends Component {
 							/>
 				</div>
 
+
+				{/*Cards for every Crypto-currency website are displayed Here*/}	
 				{card_info.map(item => ( 
 					<Card className='card-margin' shadow={3} style={{width: '350px', height: '320px', margin: 'auto'}} key={item.id}>	
 						<CardTitle expand style={{color: '#fff', background: `url(${item.image}) center /cover `}}></CardTitle>
@@ -48,6 +54,7 @@ class Home extends Component {
 						<Button colored target='_blank' href={item.link}>{item.button}</Button>
 						</CardActions>
 					</Card>
+					
 				))}
 
 				<div className = 'card-layout-1'>
@@ -105,7 +112,7 @@ class Home extends Component {
 				</div>
 
 			<hr></hr>
-			
+
 			<h4><u>Coming Soon:</u></h4>
 			<p><b>Tutorials on Blockchain Technology.</b></p>
 			<p><b>Expandable Asset Support.</b></p>

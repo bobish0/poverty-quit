@@ -3,14 +3,14 @@ import {Card, Chip, ChipContact, CardTitle, CardActions, Tooltip, Textfield, But
 
 import './news.css';
 import './aboutme.css';
-import Form1 from './about-form';
+import Form1 from '../components/about-form';
 import ParticleBackground from './particle-js';
 
-import FooterPage from './FooterPage.js'
+import FooterPage from '../components/FooterPage'
 import Profile from '../img/profile_pic.png'
 import Github from '../img/github.jpg';
 import Logo2 from '../img/logo2.png';
-import TimeLine from './about-timeline.js';
+import TimeLine from '../components/about-timeline';
 
 
 

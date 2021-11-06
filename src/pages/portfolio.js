@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
-import Data from './cryptoApi/cryptoList100.json';
+import Data from '../components/cryptoApi/cryptoList100.json';
 import '../App.css';
 import './portfolio.css';
+
 import {Checkbox, DataTable, Textfield, Table, TableHeader,Button,Dialog, DialogTitle,DialogContent,DialogActions } from 'react-mdl';
-import  {useState} from 'react';
-import SearchBar from './searchBar.js';
-import Particles from 'react-particles-js';
+
+import SearchBar from '../components/searchBar';
+
 import Logo2 from '../img/logo2.png';
 
-import FooterPage from './FooterPage.js'
-import ParticleBackground from './particle-js';
+import FooterPage from '../components/FooterPage'
 
-
+import ParticleBackground from './particle-js'; 
 
 class Portfolio extends Component {
 

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Particles from 'react-particles-js';
+
 import './news.css';
-import FooterPage from './FooterPage.js'
+import FooterPage from '../components/FooterPage'
 
 import {Textfield, Button} from 'react-mdl';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -12,9 +12,6 @@ import Card from 'react-bootstrap/Card';
 import ParticleBackground from './particle-js';
 
 const API = 'https://newsapi.org/v2/everything?q=crypto&from=2021-10-20&sortBy=publishedAt&apiKey=051e568866ff4539b4cb468bc36b315f';
-
-
-
 
 class News extends Component {
 
@@ -31,8 +28,6 @@ class News extends Component {
 		.then(data => this.setState({articles: data.articles}));
 	}
 
-
-
     render()  {
 		const {articles} = this.state;
         return (
@@ -41,15 +36,11 @@ class News extends Component {
                 		
 	<ParticleBackground/>
 
-
-
 		<div className ='first-page-landing'>
 
 			<img className ='image-logo' src={Logo2}/>
 
 		</div>
-
-
 			
 		<div className ='description'>
 
@@ -85,9 +76,6 @@ class News extends Component {
 
 
 		</div>
-
-
-
 
 	</div>
 

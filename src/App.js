@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
-import Main from './components/main';
+import Main from './pages/main';
 import {Link} from 'react-router-dom';
 
 
@@ -24,21 +24,20 @@ class App extends Component {
             </Navigation>
 
         </Header>
+
         <Drawer className ="drawer-style navbar-font" title="POVERTY QUIT">
             <Navigation>
             <Link className ='no-decoration' to="/home">Home</Link>
             <Link className ='no-decoration' to="/aboutme">About</Link>
             <Link className ='no-decoration' to="/portfolio">Portfolio</Link>
             <Link className ='no-decoration' to="/news">News</Link>
-            <Link className ='no-decoration' to="/earn">Earn</Link>
-             
+            <Link className ='no-decoration' to="/earn">Earn</Link>            
             </Navigation>
         </Drawer>
 
 
         <Content>
             <div className ="page-content"/>
-
             <Main/>
         </Content>
     </Layout>

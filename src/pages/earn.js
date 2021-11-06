@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './earn.css';
 
-import FooterPage from './FooterPage.js'
+import FooterPage from '../components/FooterPage'
 import './news.css';
 import ParticleBackground from './particle-js.js';
 import {Card, Button, CardMenu, IconButton, CardTitle, CardText,CardActions, DataTable, TableHeader} from 'react-mdl';
@@ -17,7 +17,7 @@ import Crypto1 from '../img/crypto5.jpg';
 import NEWS from '../img/news_example.png';
 
 
-
+{/* IGNORE EARN.JS FOR NOW, THIS IS AN OLD REDUNTANT HAIRBALL*/}
 
 class Earn extends Component {
 

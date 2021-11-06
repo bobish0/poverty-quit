@@ -1,0 +1,64 @@
+.profile-description {
+  width: 500px;
+
+  text-align: left;
+  margin-left: 0;
+}
+
+.profile-description h4 {
+  margin-left: 20%;
+  margin-top: 0;
+}
+
+.layout-design {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-pic {
+  margin-left: 10%;
+}
+
+.kompetens {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.githubImage {
+  height: 200px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 760px) {
+  .layout-design {
+    flex-direction: column;
+  }
+
+  .profile-description {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .profile-pic {
+    margin-left: 0%;
+    margin-bottom: 10px;
+  }
+
+  .profile-description h4 {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+}
+
+.contact-form {
+  border: 1px solid grey;
+  border-radius: 3px;
+  margin: auto;
+  text-align: center;
+  width: 430px;
+
+  box-shadow: 0px 2px 5px -1px grey;
+}

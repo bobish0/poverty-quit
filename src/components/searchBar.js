@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Data from './cryptoApi/cryptoList100.json';
 import '../App.css';
-import './portfolio.css';
+import '../pages/portfolio.css';
 
 import { FABButton, Icon, Textfield, Button,Dialog, DialogTitle,DialogContent,DialogActions } from 'react-mdl';
 
