@@ -8,9 +8,10 @@ import Typical from 'react-typical';
 
 import ParticleBackground from './particle-js';
 
-import card_info from '../components/constants/constants.js';
 
-import FooterPage from '../components/FooterPage'
+import card_info from '../components/constants/constants';
+import FooterPage from '../components/FooterPage.js'
+
 
 
 

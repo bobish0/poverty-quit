@@ -13,7 +13,7 @@ class App extends Component {
  return (
 <div style={{height: '100vh', position: 'relative'}}>
     <Layout fixedHeader>
-        <Header className="header-color navbar-font" title={<span><span style={{ color: '#ddd' }}> </span>{<strong>Poverty Quit</strong>}</span>}>
+        <Header className="header-color navbar-font" title={<span><span style={{ color: '#ddd' }}> </span>{<span >POVERTY QUIT</span>}</span>}>
            
             <Navigation className="navbar-mobile-view">
                 <Link className ='no-decoration enlargen' to="/home">Home</Link>
