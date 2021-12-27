@@ -1,13 +1,12 @@
-.timeline-section{
-    background-color:rgb(80, 78, 78);
-    font-family: 'Roboto Mono', monospace !important;
+.timeline-section {
+  background-color: rgb(80, 78, 78);
+  font-family: "Roboto Mono", monospace !important;
 }
 
-body{
-    font-family: 'Roboto Mono', monospace !important;
+body {
+  font-family: "Roboto Mono", monospace !important;
 }
 
-.RealFont{
-    font-family: 'Roboto Mono', monospace !important;
-
+.RealFont {
+  font-family: "Roboto Mono", monospace !important;
 }

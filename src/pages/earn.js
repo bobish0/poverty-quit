@@ -15,7 +15,7 @@ import Kucoin1 from '../img/kucoin3.png';
 import Fiverr1 from '../img/fiverr1.png';
 import Crypto1 from '../img/crypto5.jpg';
 import NEWS from '../img/news_example.png';
-
+import Hero from '../components/Hero';
 
 {/* IGNORE EARN.JS FOR NOW, THIS IS AN OLD REDUNTANT HAIRBALL*/}
 
